@@ -1,26 +1,17 @@
-# python 에서 이용 가능한 수학적 표현
-import math
+age = int(input("Enter your age : "))
 
-number = 3
-# number = number + 4
-# number += 4
-# number -= 2
-# number /= 2.3
-# number %= 2
-# number **= 4
-# number *= 4
-# print(number)
+if age < 0:
+    print("You haven't been born yet")
+elif 0 <= age < 18:
+    print("You must be 18+ to sign up")
+elif 18 <= age < 100:
+    print("You are signed up!!")
+else:
+    print("You are too old to sign up!!")
 
-x = 3.2
-y = -4.6
-z = 2
+response = input("Would you like food? (Y/N) : ")
 
-print(max(x, y, z))
-print(round(x), round(y))   # 반올림
-print(abs(y))               # 절댓값
-print(pow(x, z))
-
-print(math.ceil(x))
-print(math.floor(y))
-
-print(round(math.pi, 6))
+if response == "Y" or response == "y":
+    print("Have some food")
+else:
+    print("No food for you")
