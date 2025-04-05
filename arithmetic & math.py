@@ -30,6 +30,8 @@ print(max(x,y,z))   # maximum value 찾음
 print(min(x,y,z))
 
 # import math 하면 math 모듈을 사용해 더 복잡한 함수나 상수들을 이용 가능
+# 모듈이란 함수나 변수 또는 클래스를 모아 놓은 파이썬 파일이다.
+# 모듈은 다른 파이썬 프로그램에서 불러와 사용할 수 있도록 만든 파이썬 파일이라고도 할 수 있다.
 print(math.pi)
 print(math.e)
 print(math.sqrt(9))
@@ -41,7 +43,7 @@ circumference = 2 * math.pi * radius
 area = math.pi * pow(radius, 2)
 
 print(f"The circumference is: {circumference}")
-print(f"The circumference is: {round(circumference, 2)}")
+print(f"The circumference is: {round(circumference, 2)}")   # 소숫점 2자리만 나타내도록 반올림
 
 print(f"The area is: {area}cm^2")
-print(f"The area is: {round(area, 3)}cm^2")
+print(f"The area is: {round(area, 3)}cm^2")     # 소숫점 3자리만 나타내도록 반올림
