@@ -1,33 +1,19 @@
-# function = 여러번 재사용 가능한 코드들
-#            함수를 호출 하기 위해선 () 사용
-#            함수를 호출할 때 인자(argument) 넣어줄 수 있음. 함수에서 매개변수(parameter)로 인자 값을 받음
-#            매개변수(parameter)의 순서는 중요하다
-#            return을 이용하여 함수에서 처리 된 값을 반환 가능하다. (return을 쓰면 함수가 종료된다.)
+# 디폴트 매개변수 (default parameter) = 함수에서 고정된 매개변수(parameter)
+# 매개변수 값이 일정한 경우가 많을 때, 굳이 인자에 값을 쓰지 않고 고정된 매개변수를 정한다.
+# 디폴트 매개변수는 위치 매개변수(positional parameter) 뒤에 위치한다.
 
-# def happy_birthday(age, name):
-#     print(f"Happy birthday to {name}")
-#     print(f"Happy birthday to {name}")
-#     print(f"You are {age} old !!")
-#     print()
-#
-# happy_birthday("banana", 20)
-# happy_birthday("apple", 42)
-# happy_birthday("coconut", 62)
+import time
 
-# def add(x, y):
-#     return x + y
-#
-# def subtract(x, y):
-#     return x - y
-#
-# def multiply(x, y):
-#     return x * y
-#
-# def divide(x, y):
-#     return x / y
-#
-# print(add(2, 3))
-# print(subtract(2, 3))
-# print(multiply(2, 3))
-# print(divide(2, 3))
+def timer(end, start=0):
+    for x in range(start, end+1):
+        print(x)
+        time.sleep(1)
+    print("Done!!!")
 
+# timer(10)
+timer(10, 3)
+
+def net_price(net_list, tax=0.05, discount=0):
+    return net_list * (1 - discount) * (1 + tax)
+
+print(net_price(500))
