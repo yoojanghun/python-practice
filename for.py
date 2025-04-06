@@ -19,6 +19,10 @@ for x in range(1, 11, 2):
 
 print("Happy new year!")
 
+# 10부터 1까지 거꾸로 count. 0에 도착하기 이전에 for loop가 끝나는 것으로 보인다.
+for x in range(10, 0, -1):
+    print(x)
+
 # 문자열도 반복 가능함
 credit_card = "1234-456-789-156"
 
