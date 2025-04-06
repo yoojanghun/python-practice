@@ -1,19 +1,15 @@
-# 디폴트 매개변수 (default parameter) = 함수에서 고정된 매개변수(parameter)
-# 매개변수 값이 일정한 경우가 많을 때, 굳이 인자에 값을 쓰지 않고 고정된 매개변수를 정한다.
-# 디폴트 매개변수는 위치 매개변수(positional parameter) 뒤에 위치한다.
+# keyword 인자 = 인자 앞에 함수 매개변수에 해당하는 변수 이름을 작성함
+# 가독성이 좋아짐. 인자의 순서가 중요하지 않게 됨.
+# keyword 인자와 default parameter는 둘 다 positional 뒤에 와야 함.
 
-import time
+def hello(greeting, title, first, last):
+    print(f"{greeting}, {title} {first} {last}")
 
-def timer(end, start=0):
-    for x in range(start, end+1):
-        print(x)
-        time.sleep(1)
-    print("Done!!!")
+hello(greeting="hello", title="Mr.", first="Yoo", last="Janghun")
 
-# timer(10)
-timer(10, 3)
+# print에서 두 번째 인자인 end=" "는 사실 keyword argument이다.
+for x in range(1, 11):
+    print(x, end=" ")
 
-def net_price(net_list, tax=0.05, discount=0):
-    return net_list * (1 - discount) * (1 + tax)
+print("1", "2", "3", "4", "5", sep="---")
 
-print(net_price(500))
