@@ -3,6 +3,12 @@
 #   Set     = {} unordered(인덱스 못 씀) and mutable(Add/Remove OK). NO duplicates(같은 원소 여러개 써도 하나로 취급)
 #   Tuple   = () ordered and immutable(수정 불가). Duplicates OK. FASTER
 
+# List = A collection which is ordered and changeable (index-value pairs). Allow duplicate members.
+# Tuple = A collection which is ordered and unchangeable (index-value pairs). Allows duplicate members. (list인데 변경 X)
+# Set = A collection which is unordered and changeable (values only). no duplicate members.
+# Dictionary = A set of key-value pairs. A collection which is unordered but indexed, and changeable.
+#              No duplicate members (set인데 key-value 쌍)
+
 fruits = ["apple", "orange", "banana", "coconut"]
 
 print(fruits)
