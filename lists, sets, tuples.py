@@ -5,6 +5,7 @@
 
 # List = A collection which is ordered and changeable (index-value pairs). Allow duplicate members.
 # Tuple = A collection which is ordered and unchangeable (index-value pairs). Allows duplicate members. (list인데 변경 X)
+#         list에서 수정 삭제 메소드 빼면 tuple의 메소드
 # Set = A collection which is unordered and changeable (values only). no duplicate members.
 # Dictionary = A set of key-value pairs. A collection which is unordered but indexed, and changeable.
 #              No duplicate members (set인데 key-value 쌍)
@@ -12,11 +13,11 @@
 fruits = ["apple", "orange", "banana", "coconut"]
 
 print(fruits)
-print(fruits[0])
+print(fruits[0])        # 개별 요소 print
 print(fruits[3])
 
 # 처음 ~ 3번째까지 print
-print(fruits[0:3])
+print(fruits[0:3])      # 배열로 print
 print(fruits[:3])
 
 for fruit in fruits:
