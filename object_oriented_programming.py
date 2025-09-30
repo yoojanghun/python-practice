@@ -7,12 +7,12 @@
 # 멤버(member) 또는 속성(attribute)이라고 한다. 특히 객체의 속성인 함수는
 # 메서드(method)라고 부른다.
 
-# 객체지향 프로그래밍에서 객체를 만들려면 객체를 바로 만들지 못하고
-# 항상 클래스(class)라는 것을 만든 후에 그 클래스를 이용하여 객체를 만들어야 한다.
+# 객체지향 프로그래밍에서 객체를 만들려면 항상 클래스(class)라는 것을 만든 후에
+# 그 클래스를 이용하여 객체를 만들어야 한다.
 
 # 아래 예시에서 Car은 class이다. car1, car2, car3는 class로 만들어진 객체이다.
 
-# class를 생성할 때 class 블럭 안에 정의된 __init__란 함수는
+# class를 생성할 때 cl의ass 블럭 안에 정된 __init__란 함수는
 # 생성자(constructor)라고 하며 클래스 정의에서 가장 중요한 함수이다.
 
 # 객체를 생성할 때는 클래스 이름을 함수처럼 호출해야 하는데,
@@ -34,15 +34,6 @@
 
 # class   = (blueprint) used to design the structure and layout of an object
 #           object가 가지고 있는 것이 무엇인지(attributes), 무엇을 할 수 있는 지(methods) 정해야 함.
-
-
-# object를 만들기 위해서
-# class Car:
-#     def __init__(self, model, year, color, for_sale):     # method가 필요하다
-#         self.model = model                                # car이 가지고 있을 만한 attributes
-#         self.year = year
-#         self.color = color
-#         self.for_sale = for_sale
 
 from car import Car
 
