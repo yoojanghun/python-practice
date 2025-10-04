@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e5aa018-edc7-4ecd-a8c4-f3e49a3410ad" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/program/caculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/type_casting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matlibs_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/program/matlibs_game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/caculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/program/caculator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.caculator.executor": "Run",
     "Python.type_casting.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
