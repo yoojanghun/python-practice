@@ -1,5 +1,5 @@
-# dictionary = a collection of {key: value} pairs
-#              ordered and mutable. No duplicates
+# Dictionary = A set of key-value pairs. A collection which is unordered but indexed, and changeable.
+#              No duplicate members (set인데 key-value 쌍)
 
 capitals = {"USA": "Washington D.C.",
             "India": "New Delhi",
