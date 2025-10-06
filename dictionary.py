@@ -16,12 +16,12 @@ print(capitals.get("Japan"))                # 잘 사용하지 않는 표현
 
 print()
 
-if capitals.get("Russia"):
+if "USA" in capitals:
     print("That capital exists")
 else:
     print("That capital doesn't exist")
 
-if "USA" in capitals:
+if capitals.get("Russia"):
     print("That capital exists")
 else:
     print("That capital doesn't exist")
@@ -29,14 +29,17 @@ else:
 print()
 
 # dictionary의 값을 추가, 변경 가능
-capitals["Germany"] = "Berlin"
+capitals["Germany"] = "Berlin"          # 추가
 print(capitals)
 
-capitals["USA"] = "USA Capital"
+capitals["USA"] = "USA Capital"         # 변경
 print(capitals)
 
 # key: value 쌍을 없애기 위해선
-del capitals["China"]
+del capitals["China"]                   # 삭제
+print(capitals)
+
+capitals.pop("India")
 print(capitals)
 
 # 가장 최근의 쌍을 없애기 위해선
@@ -77,3 +80,9 @@ print(item)
 
 for key, value in capitals.items():
     print(f"{key}: {value}")
+
+print()
+
+# constructor(생성자)
+thisdict = dict(brand = "Ford", model = "Mustang", year = 1964, for_sale = True)
+print(thisdict)
