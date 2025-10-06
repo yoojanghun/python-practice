@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e5aa018-edc7-4ecd-a8c4-f3e49a3410ad" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented/class_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented/class_variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/duck_typing.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented/duck_typing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented/inheritance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiple_inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented/multiple_inheritance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_oriented_programming.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented/object_oriented_programming.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polymorphism.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented/polymorphism.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented/static_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/super.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_oriented/super.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typecasting.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
