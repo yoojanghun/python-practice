@@ -45,7 +45,7 @@ hawk.hunt()
 fish.flee()
 fish.hunt()
 
-# python의 메서드 탐색 순서
+# python의 동일 이름의 메서드 탐색 순서 (생성자 함수 __init__ 포함)
 # class Fish에서 Fish 객체를 만들면
 # Fish → Prey → Predator → Animal 순서로 생성자 함수를 한번만 실행
-# 예를 들어 Prey에 생성자 함수가 있으면 Animal의 생성자 함수는 실행 X
+# 예를 들어 Prey에 생성자 함수가 있으면 Animal의 생성자 함수는 자동으로 실행 X

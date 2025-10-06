@@ -19,7 +19,7 @@ student2 = Student("Spongebob", 30)     # 객체 생성
 print(Student.num_students)
 student3 = Student("Squidward", 55)     # 객체 생성
 print(Student.num_students)
-student4 = Student("Sandy", 27)     # 객체 생성
+student4 = Student("Sandy", 27)         # 객체 생성
 print(Student.num_students)
 
 print(student1.class_year)      # object로 접근

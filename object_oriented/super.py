@@ -1,6 +1,6 @@
 # super() = Function used in a child class to call methods from a parent class (superclass).
 #           Allows you to extend the functionality of the inherited methods
-#           python의 메서드 탐색 순서에 따라 메서드를 호출하는 함수
+#           python의 메서드 탐색 순서(MRO)에 따라 메서드를 호출하는 함수
 
 class Shape:
     def __init__(self, color, is_filled):
@@ -30,11 +30,11 @@ class Triangle(Shape):
         self.width = width
         self.height = height
 
-circle = Circle(color="red", is_filled=True, radius=5)
+circle = Circle(color="red", is_filled=True, radius=5)      # MRO에 따라 Shape가 아닌 Circle class의 생성자 함수가 실행됨
 square = Square(color="green", is_filled=False, width=6)
 triangle = Triangle(color="yellow", is_filled=True, width=7, height=8)
 
-circle.describe()
+circle.describe()       # MRO에 따라 Shape 클래스가 아닌 Circle 클래스의 describe method가 실행됨
 square.describe()
 triangle.describe()
 

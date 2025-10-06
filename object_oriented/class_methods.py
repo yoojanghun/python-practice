@@ -4,6 +4,7 @@
 # Instance methods = Best for operations on instances of the class(object)
 # Static methods = Best for utility functions that do not need access to class data
 # Class methods = Best for class-level data or require access to the class itself
+#                 class variable(클래스 변수)에 접근하거나 수정할 때 주로 사용
 
 class Student:
 
