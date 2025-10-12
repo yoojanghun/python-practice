@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e5aa018-edc7-4ecd-a8c4-f3e49a3410ad" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/pyqt5/intro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5/label.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,34 +35,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.bubble_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.caculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.compound_interest_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.countdown_timer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.counting_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dictionary.executor&quot;: &quot;Run&quot;,
-    &quot;Python.heap_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.insertion_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.intro.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lists_sets_tuples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.map.executor&quot;: &quot;Run&quot;,
-    &quot;Python.merge_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quick_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.selection_sort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.super.executor&quot;: &quot;Run&quot;,
-    &quot;Python.temperature_conversion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.type_casting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.weight_conversion.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.bubble_sort.executor": "Run",
+    "Python.caculator.executor": "Run",
+    "Python.compound_interest_calculator.executor": "Run",
+    "Python.countdown_timer.executor": "Run",
+    "Python.counting_sort.executor": "Run",
+    "Python.dictionary.executor": "Run",
+    "Python.heap_sort.executor": "Run",
+    "Python.insertion_sort.executor": "Run",
+    "Python.intro.executor": "Run",
+    "Python.label.executor": "Run",
+    "Python.lists_sets_tuples.executor": "Run",
+    "Python.map.executor": "Run",
+    "Python.merge_sort.executor": "Run",
+    "Python.practice.executor": "Run",
+    "Python.quick_sort.executor": "Run",
+    "Python.selection_sort.executor": "Run",
+    "Python.super.executor": "Run",
+    "Python.temperature_conversion.executor": "Run",
+    "Python.type_casting.executor": "Run",
+    "Python.weight_conversion.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yooja\python-practice\pyqt5" />
       <recent name="C:\Users\yooja\python-practice\object_oriented" />
       <recent name="C:\Users\yooja\python-practice\program" />
     </key>
