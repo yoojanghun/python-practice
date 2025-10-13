@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e5aa018-edc7-4ecd-a8c4-f3e49a3410ad" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/pyqt5/line_edit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyqt5/css_like_properties.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyqt5/layout.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyqt5/layout.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,7 @@
     "Python.compound_interest_calculator.executor": "Run",
     "Python.countdown_timer.executor": "Run",
     "Python.counting_sort.executor": "Run",
+    "Python.css_like_properties.executor": "Run",
     "Python.dictionary.executor": "Run",
     "Python.heap_sort.executor": "Run",
     "Python.images.executor": "Run",
