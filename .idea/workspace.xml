@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e5aa018-edc7-4ecd-a8c4-f3e49a3410ad" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/merge_sort2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,7 @@
     &quot;Python.lists_sets_tuples.executor&quot;: &quot;Run&quot;,
     &quot;Python.map.executor&quot;: &quot;Run&quot;,
     &quot;Python.merge_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.merge_sort2.executor&quot;: &quot;Run&quot;,
     &quot;Python.practice.executor&quot;: &quot;Run&quot;,
     &quot;Python.quick_sort.executor&quot;: &quot;Run&quot;,
     &quot;Python.radio.executor&quot;: &quot;Run&quot;,
