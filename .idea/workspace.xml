@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e5aa018-edc7-4ecd-a8c4-f3e49a3410ad" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/krustal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/prim.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-practice.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/krustal.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/krustal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +66,7 @@
     "Python.merge_sort.executor": "Run",
     "Python.merge_sort2.executor": "Run",
     "Python.practice.executor": "Run",
+    "Python.prim.executor": "Run",
     "Python.quick_sort.executor": "Run",
     "Python.radio.executor": "Run",
     "Python.selection_sort.executor": "Run",
@@ -86,6 +90,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yooja\python-practice\algorithms" />
       <recent name="C:\Users\yooja\python-practice\file_handling\test" />
       <recent name="C:\Users\yooja\python-practice\pyqt5" />
       <recent name="C:\Users\yooja\python-practice\object_oriented" />
@@ -95,8 +100,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
-        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+        <option value="bundled-python-sdk-14705d77f0bb-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.25659.43" />
       </set>
     </attachedChunks>
   </component>
