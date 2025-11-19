@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e5aa018-edc7-4ecd-a8c4-f3e49a3410ad" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/prim.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/bellman_ford.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/krustal.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms/krustal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.bellman_ford.executor": "Run",
     "Python.bubble_sort.executor": "Run",
     "Python.button.executor": "Run",
     "Python.caculator.executor": "Run",
