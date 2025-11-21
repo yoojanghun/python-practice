@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e5aa018-edc7-4ecd-a8c4-f3e49a3410ad" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithms/bellman_ford.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/dfs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
     </list>
@@ -47,6 +47,7 @@
     "Python.countdown_timer.executor": "Run",
     "Python.counting_sort.executor": "Run",
     "Python.css_like_properties.executor": "Run",
+    "Python.dfs.executor": "Run",
     "Python.dictionary.executor": "Run",
     "Python.disjoint_set.executor": "Run",
     "Python.exception_handling.executor": "Run",
