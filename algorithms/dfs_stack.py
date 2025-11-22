@@ -17,8 +17,8 @@ n = len(graph)
 visited = [False] * n
 
 stack = []
-def DFS(graph, s):
-    stack.append(s)
+def DFS(graph, start):
+    stack.append(start)
     while stack:
         node = stack.pop()
         if not visited[node]:
